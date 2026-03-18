@@ -1,0 +1,43 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+
+layout: home
+hero:
+  name: Fast Sky 2
+  text: Optimal Sky Rendering Solution for Unity.
+  tagline: Optimal Sky Rendering Solution for Unity.
+  image:
+    src: /favicon.png
+    width: 1000
+    height: 1000
+    alt: VitePress
+  actions:
+    - theme: brand
+      text: Asset Store ↗
+      link: https://u3d.as/21TM
+    - theme: alt
+      text: Youtube
+      link: 'https://www.youtube.com/channel/UCNRZ2fL6qdZ4Xq6gJetqiIw'
+    - theme: alt
+      text: Discord
+      link: 'https://discord.com/invite/nTn9GxhWAn'
+features:
+    - title: Performance
+      details: One of Fast Sky 2 core strengths is its minimal performance impact. This ensures that adding stunning skies and clouds to your scene doesn't bog down your game's framerate, leaving valuable resources for other critical game elements.
+      icon: ⚡
+    - title: Well Documented and Supported
+      details: Fast Sky 2 comes with comprehensive documentation and support resources, ensuring that you have all the information you need to get the most out of the asset. Whether you're a beginner or an experienced developer, you'll find clear instructions and helpful tips to guide you through the setup and customization process.
+      icon : 📚
+    - title: Intuitive Workflow and User Interface
+      icon: 🌟
+      details: Fast Sky 2 boasts an easy-to-use workflow and UI, making the process of creating and customizing skies incredibly straightforward.
+    - title: Visual-Performance Balance
+      icon: ⚖️
+      details: Unlike other sky solutions, Fast Sky 2 maintains a perfect balance between visual fidelity and performance. This means you can achieve stunning, high-quality skies without sacrificing your game's performance.
+    - title: Versatile Visual Styles
+      icon: 🎨
+      details: Fast Sky 2 is highly adaptable to both stylized and realistic visual styles. Its flexible design allows you to seamlessly integrate a wide range of artistic directions, ensuring your skybox complements your game's overall look and feel.
+    - title: Quick Start
+      icon: 🚀
+      details: Fast Sky 2 comes with a selection of provided presets and scenes. These pre-made sky configurations serve as excellent starting points, which you can then easily expand upon to perfectly suit the unique needs and artistic direction of your game.
+---
