@@ -41,7 +41,7 @@ export default defineConfig({
   buildConcurrency: 100,
   base: base,
   cleanUrls: webLaunch,
-  outDir: "../build",
+  outDir: "../docs",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: nav(),
