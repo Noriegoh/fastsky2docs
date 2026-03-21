@@ -1,0 +1,1 @@
+import{_ as a,c as r,o as s,ah as t}from"./chunks/framework.BssxmkiH.js";const p=JSON.parse('{"title":"Glossary","description":"","frontmatter":{},"headers":[],"relativePath":"glossary.md","filePath":"glossary.md"}'),o={name:"glossary.md"};function n(i,e,l,c,m,d){return s(),r("div",null,e[0]||(e[0]=[t("",6)]))}const _=a(o,[["render",n]]);export{p as __pageData,_ as default};
