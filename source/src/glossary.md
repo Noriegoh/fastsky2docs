@@ -8,4 +8,4 @@ These are parameters that should be kept constant across various volume profiles
 
 ## Performance Sensitive Parameters
 
-These are parameters that when enabled or increased could result in a drop in performance either drastically or very minimal.
+These are parameters that when enabled or increased could result in a drop in performance either drastically or minimal.

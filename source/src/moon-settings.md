@@ -1,6 +1,6 @@
 # Moon Settings
 
-The moon is positioned opposite the sun. You can modify this behaviour by specifying a transform in the [FastSkySceneConfig](setup#fast-sky-component) component, determining the position of the moon.
+By default, the moon is positioned opposite the sun. You can modify this behaviour by specifying a transform in the [FastSkySceneConfig](setup#fast-sky-component) component that determines the position of the moon.
 
 The moon's appearance is controlled by the settings below.
 
