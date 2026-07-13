@@ -41,9 +41,9 @@ Initial Release
 - Added VR Support
 - Added support for Built-in Render Pipeline
 - Added astronomical positioning mode for celestial bodies (moon and sun) based on a specified time of day / time of year using earth's orbital model.
+- Added atmospheric height fog (aerial perspective).
 - Added skymap rotation.
 - Added earth curvature, simulating the look of observing from an elevated height, giving the earth a curved look.
-- Added atmospheric height fog (aerial perspective).
 
 ### IMPROVEMENTS
 - Cloud shadow tiling.
