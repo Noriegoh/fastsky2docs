@@ -1,1 +1,0 @@
-import{_ as t,c as a,o as n,ah as r}from"./chunks/framework.BssxmkiH.js";const l=JSON.parse('{"title":"Setup","description":"","frontmatter":{},"headers":[],"relativePath":"setup.md","filePath":"setup.md"}'),o={name:"setup.md"};function s(i,e,d,p,u,c){return n(),a("div",null,e[0]||(e[0]=[r("",12)]))}const m=t(o,[["render",s]]);export{l as __pageData,m as default};
