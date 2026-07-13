@@ -16,3 +16,4 @@ The appearance of the skymaps can be customized using the following properties:
 | Start Time     | The time of day when this skymap starts to fade in. This value is symetrical i.e 0-> sun-down(east or west), 1.0 -> mid-day                                            |
 | Blend Distance | The time it takes for this skymap to be fully opaque.                                                                                                                  |
 | Intensity      | Intensity of this skymap.                                                                                                                                              |
+| Rotation       | Rotation of this skymap in degrees.                                                                                                                                    |

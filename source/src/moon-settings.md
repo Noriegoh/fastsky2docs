@@ -10,7 +10,7 @@ The moon's appearance is controlled by the settings below.
 | Tiling         | The tiling of the moon texture.                                                                                             |
 | Offset         | The offset of the moon texture.                                                                                             |
 | Spherification | The amount of spherification applied to the moon.                                                                           |
-| Lunar Phase    | The lunar phase, where 0.5 is a full moon, 0 is a new moon, and values in between represent the various phases of the moon. |
+| Lunar Phase    | The lunar phase, where 0.5 is a full moon, 0 is a new moon, and values in between represent the various phases of the moon. This value is ignored when [astronomical positioning](setup#setting-up-the-fast-sky-component) is enabled.
 | Texture        | The texture used for the moon.                                                                                              |
 | Brightness     | The brightness of the moon.                                                                                                 |
 | Contrast       | The contrast of the moon.                                                                                                   |

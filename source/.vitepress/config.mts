@@ -56,6 +56,7 @@ export default defineConfig({
         items:
           [
             { text: 'Atmosphere', link: '/atmosphere-settings' },
+            { text: 'Fog', link: '/fog-settings' },
             { text: 'Clouds', link: '/cloud-settings' },
             { text: 'Godrays', link: '/godrays-settings' },
             { text: 'Moon', link: '/moon-settings' },
