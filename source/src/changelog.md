@@ -1,39 +1,26 @@
 # Changelog
 
-## Version 2.0.0
-
-Initial Release
-
-## Version 2.0.1
-
-### NEW
-
-- Added silver lining effect.
-
-### FIXED
-
-- Potential vunerabilities causing crashed on some platforms
-
 ### IMPROVEMENT
-
-- Curvature property no longer causes stretching artifacts at values > 0.5 when 3DSampling is disabled, thus 3DSampling is removed. (Minor breaking change)
-
-## Version 2.1.0
-
-### NEW
-
-- Compatability support for Unity 2022.3+.
-- Added stratocumulus cloud type.
-- Added perlin detail type.
-- Removed `AbsorptionSpread` property.
-- Added [`AbsorptionLimit`](cloud-settings) property.
-
-### IMPROVEMENT
-
 - Added the option to disable camera background type warning.
 
-## Version 2.6.0
+## Version 2.6.2
+### FIXED
+- Type error when using the IL2CPP scripting backend.
+- Instantaneous 180-degree flip as the moon passes through the zenith when astronomical positioning is disabled.
+### NEW
+- Removed moon orientation. This is now specified by the z-axis of the moon transform's rotation.
 
+## Version 2.6.1
+### FIXED
+- Fixed skymap settings not showing up in the editor.
+- Fixed moon rotation gimbal-locking on Astronomical Positioning.
+- Unecessary debug log on Built-in RenderPipeline.
+### IMPROVEMENTS
+- Improved moon occulusion. The non-lit face of the moon now occuldes stars and skymaps, preventing them from bleeding through the moon.
+- Improved URP demo scenes and settings.
+
+
+## Version 2.6.0
 > [!NOTE]
 > VERSION 2.6.0 HAD A MAJOR PROJECT STRUCTURE CHANGE. ENSURE TO DELETE OLD PACKAGE FILES BEFORE IMPORTING THIS ONE.
 
@@ -55,3 +42,14 @@ Initial Release
 - Fixed moon varying brightness, inconsistent rotation and shaping issues.
 - Fixed errors while loading presets on Unity 2021.3 - Unity 2022.3
 - Fixed other bugs
+
+## Version 2.0.1
+### NEW
+- Added silver lining effect.
+### FIXED
+- Potential vunerabilities causing crashed on some platforms
+### IMPROVEMENT
+- Curvature property no longer causes stretching artifacts at values > 0.5 when 3DSampling is disabled, thus 3DSampling is removed. (Minor breaking change)
+
+## Version 2.0.0
+Initial Release
