@@ -1,16 +1,31 @@
 # Changelog
 
+## 2.6.4
+### FIXED
+- Compilation errors on URP version 14.0 (Unity 6.0)
+- Placed demo scripts into their dedicated render pipeline unity packages.
+
+## 2.6.3
+### FIXED
+- Fixed disabled features on Linux and other platforms after building player.
+- Removed FastSkySceneConfig game object auto-instancing.
+- Fixed half precision issues and general bugs.
+- Fixed RenderGraph error
+
+### IMPROVEMENTS
+- Performance improvements.
+
 ### IMPROVEMENT
 - Added the option to disable camera background type warning.
 
-## Version 2.6.2
+## 2.6.2
 ### FIXED
 - Type error when using the IL2CPP scripting backend.
 - Instantaneous 180-degree flip as the moon passes through the zenith when astronomical positioning is disabled.
 ### NEW
 - Removed moon orientation. This is now specified by the z-axis of the moon transform's rotation.
 
-## Version 2.6.1
+## 2.6.1
 ### FIXED
 - Fixed skymap settings not showing up in the editor.
 - Fixed moon rotation gimbal-locking on Astronomical Positioning.
@@ -20,7 +35,7 @@
 - Improved URP demo scenes and settings.
 
 
-## Version 2.6.0
+## 2.6.0
 > [!NOTE]
 > VERSION 2.6.0 HAD A MAJOR PROJECT STRUCTURE CHANGE. ENSURE TO DELETE OLD PACKAGE FILES BEFORE IMPORTING THIS ONE.
 
@@ -43,7 +58,7 @@
 - Fixed errors while loading presets on Unity 2021.3 - Unity 2022.3
 - Fixed other bugs
 
-## Version 2.0.1
+## 2.0.1
 ### NEW
 - Added silver lining effect.
 ### FIXED
@@ -51,5 +66,5 @@
 ### IMPROVEMENT
 - Curvature property no longer causes stretching artifacts at values > 0.5 when 3DSampling is disabled, thus 3DSampling is removed. (Minor breaking change)
 
-## Version 2.0.0
+## 2.0.0
 Initial Release
