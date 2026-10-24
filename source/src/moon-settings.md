@@ -7,6 +7,7 @@ The moon's appearance is controlled by the settings below.
 | Property       | Function                                                                                                                    |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Size           | The size of the moon texture.                                                                                               |
+| Color          | The color of the moon. This value affects the moon's haze and night-time clouds lighting.                                            |
 | Tiling         | The tiling of the moon texture.                                                                                             |
 | Offset         | The offset of the moon texture.                                                                                             |
 | Spherification | The amount of spherification applied to the moon.                                                                           |

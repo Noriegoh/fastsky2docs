@@ -1,0 +1,1 @@
+import{_ as t,o as n,c as o,ah as a}from"./chunks/framework.XbvJJa0u.js";const h=JSON.parse('{"title":"Setup","description":"","frontmatter":{},"headers":[],"relativePath":"setup.md","filePath":"setup.md"}'),r={name:"setup.md"};function s(i,e,p,u,d,c){return n(),o("div",null,[...e[0]||(e[0]=[a("",16)])])}const g=t(r,[["render",s]]);export{h as __pageData,g as default};

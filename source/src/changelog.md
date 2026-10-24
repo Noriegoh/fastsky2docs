@@ -1,5 +1,22 @@
 # Changelog
 
+## 2.8.0
+### FIXED
+- Incorrect light direction affecting the clouds.
+- Renamed CloudLayer's thickness to softness for better clarity
+
+### IMPROVEMENTS
+- Improved cloud shapes including stratocumulus, worley, perlin and billow.
+- Improved atmospheric fog
+- Improved cloud rendering.
+- Improved night-time clouds rendering.
+
+### NEW
+- Introduced new cloud shapes (turbulent, organic worley)
+- Customizable moon color influencing the moon haze and night-time clouds.
+- Ambient factor for clouds to recieve light scattered by the atmosphere.
+- Added new demo sky presets and scenes (URP only).
+
 ## 2.6.4
 ### FIXED
 - Compilation errors on URP version 14.0 (Unity 6.0)

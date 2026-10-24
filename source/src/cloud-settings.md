@@ -35,7 +35,7 @@ Each cloud layer has its own settings that controls its appearance and movement.
 | Scale               | Scale of the noise texture sampling. Higher values result in smaller clouds, lower values in larger cloud shapes.                                                                                                                                                                                                                                                       |
 | Coverage            | The coverage of the clouds. Higher values result in more clouds coverage.                                                                                                                                                                                                                                                                                               |
 | Opacity             | Controls the opacity / transparancy of this cloud layers.                                                                                                                                                                                                                                                                                                               |
-| Thickness           | The thickness of the clouds. Higher values result in smoother cloud features, but requires higher __lightmarch steps__ to look good.                                                                                                                                                                                                                                    |
+| Softness           | The softness of the clouds. Higher values result in smoother cloud features, but requires higher __lightmarch steps__ to look good.                                                                                                                                                                                                                                    |
 | Lightmarch Steps    | The number of steps to use for lightmarching the clouds. Higher values prevents banding, but are more expensive to render. You can use the [BandingReduction](#main-settings) to minimize it. You should leave this value as 0 if you're rendering a flat cloud layer. <br><br> This is parameter is [performance sensitive](glossary#performance-sensitive-parameters) |
 | Absorption          | The absorption/darkening of light as it travels through the cloud.                                                                                                                                                                                                                                                                                                      |
 | Absorption Limit    | Limits the absorption effect to this threshold. This prevents completly dark clouds.                                                                                                                                                                                                                                                                                    |
@@ -58,11 +58,14 @@ The noise type determines the look of the cloud shapes.
 
 | Property      | Function                                                               |
 | ------------- | ---------------------------------------------------------------------- |
-| Worley        | Bubbly and distinct.                                                   |
+| Organic       | Bubbly and distinct.                                                   |
+| Worley        | Less repetitive, cells appear thicker.                                 |
 | Billow        | Much more bubbly and less distinct.                                    |
 | Perlin        | Light/Less dense.                                                      |
 | Value         | Dense and very distinct.                                               |
 | Stratocumulus | Puffy, and lumpy cloud layers that typically look like rolling masses. |
+| Turbulent     | Turbulent cloud shape with swirly details.                             |
+| Turbulent 2   | Turbulent cloud shape with pronounced swirly details.               |
 
 ## Detail Shape Type
 
