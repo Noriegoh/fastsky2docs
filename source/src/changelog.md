@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.8.1 (CRUTIAL BUG FIX)
+### FIXED
+- __Fixed memory leak bug that manifests when rendering cloud shadows (CRUTIAL BUG FIX)__
+- Renamed Worley to OrganicWorley and Worley2 to Worley.
+- Fixed artifact present on the clouds when viewing the sky's zenith (up)
+- Fixed radial artifact observed in the fog when viewed from below.
+
+### IMPROVEMENTS
+- Added an enable parameter to the settings. This allows developers to disable fast sky for specific scenerios without compromising the default unity sky rendering. (__BREAKING CHANGE. YOU WOULD REQUIRE TO ENABLE THIS FLAG AS IT IS DISABLED BY DEFAULT__)
+- Enhanced cloud rendering during sunset period, specifically the oversaturation of clouds  obscured by the earth's shadow.
+
 ## 2.8.0
 ### FIXED
 - Incorrect light direction affecting the clouds.

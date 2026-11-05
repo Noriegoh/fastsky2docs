@@ -7,3 +7,7 @@ The [FastSkySceneConfig](setup#fast-sky-component) component is optional, but re
 The Fast Sky component works with the the SRP VolumeComponentSystem / PostProcessStack, thus allowing you to blend between different sky states depending on the camera's position or manually. See the [State Blending](state-blending) section for more info.
 
 The position of the sun should be set in the __Lighting Window__. This can help prevent some issues that might occur when using multiple __Directional Lights__.
+
+| Property          | Function                                                                                                                                                                                                                                                                                                                                                         |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Enabled | Indicates if __Fast Sky__ is enabled for this volume. Enabling this flag overrides the default unity skybox solution.|
