@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.8.2
+### FIXED
+- Fixed minor performance bug on URP RenderGraph, fast clouds mode, where cloud pixels where getting calculated on regions obstructed by the scene objects.
+- Bugs on on-tile GPUs.
+
 ## 2.8.1 (CRUTIAL BUG FIX)
 ### FIXED
 - __Fixed memory leak bug that manifests when rendering cloud shadows (CRUTIAL BUG FIX)__
